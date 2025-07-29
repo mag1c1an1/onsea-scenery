@@ -2,10 +2,11 @@
   "name": "onsea-scenery",
   "displayName": "onsea-scenery",
   "description": "theme for rust",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.102.0"
   },
+  "repository": "https://github.com/mag1c1an1/onsea-scenery",
   "categories": [
     "Themes"
   ],
@@ -17,5 +18,6 @@
         "path": "./themes/ht-color-theme.json"
       }
     ]
-  }
+  },
+   "publisher": "VOID-DaydreaM" 
 }
