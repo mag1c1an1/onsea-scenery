@@ -1,18 +1,16 @@
 # onsea-scenery README
 
-## Working with Markdown
+## Enjoy 
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+Based on  **dekirisu/vscode-rust-themes** and **primer/github-themes**.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+struct  
+enum  
+variable  
+trait  
+keyword  
+path  
+macro  
 
-## For more information
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
-
-Based on  <https://github.com/dekirisu/vscode-rust-themes> and github theme
+*MIT License*

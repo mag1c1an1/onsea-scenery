@@ -7,7 +7,7 @@
             "italic": true
         },
         "*.mutable": {
-            "underline": true
+            "underline": true,
         },
         "*.documentation": {
             "italic": true,
@@ -21,17 +21,21 @@
             "foreground": "#5a5b5e",
             "bold": true
         },
-        "keyword": "#b39265",
+        "keyword": "#fb3b06",
+        "keyword.crateRoot": {
+            "foreground": "#DF7D3C",
+            "bold": true
+        },
+        "keyword.controlFlow": {
+            "foreground": "#C45198",
+            "bold": true
+        },
         "arithmetic": {
             "foreground": "#B37F93",
             "bold": true
         },
         "comparison": {
             "foreground": "#B37F93",
-            "bold": true
-        },
-        "keyword.controlFlow": {
-            "foreground": "#C45198",
             "bold": true
         },
         /* -------------------------- Kinda Memory Related -------------------------- */
@@ -52,21 +56,17 @@
             "foreground": "#DF7D3C",
             "bold": true
         },
-        "keyword.crateRoot": {
-            "foreground": "#DF7D3C",
-            "bold": true
-        },
         /* -------------------------- Further Generization -------------------------- */
         "macro": {
-            "foreground": "#d8b543",
+            "foreground": "#af0bf0",
             "bold": true
         },
         "macroBang": {
-            "foreground": "#d8b543",
+            "foreground": "#af0bf0",
             "bold": true
         },
         "typeParameter": {
-            "foreground": "#d8b543",
+            "foreground": "#af0bf0",
             "bold": true
         },
         /* -------------------------------- Variables ------------------------------- */
@@ -75,11 +75,11 @@
         "property": "#4f4c4c",
         /* --------------------------------- Struct --------------------------------- */
         "struct": {
-            "foreground": "#00ccff",
+            "foreground": "#13acc0",
             "bold": true
         },
         "typeAlias": {
-            "foreground": "#00ccff"
+            "foreground": "#13acc0"
         },
         /* ---------------------------------- Enum ---------------------------------- */
         "enum": {
@@ -89,19 +89,19 @@
         "enumMember": "#3EE8EE",
         /* ---------------------------------- Self ---------------------------------- */
         "selfKeyword": {
-            "foreground": "#13acc0",
+            "foreground": "#05b652",
             "bold": true
         },
         "selfTypeKeyword": {
-            "foreground": "#13acc0",
+            "foreground": "#05b652",
             "bold": true
         },
         /* -------------------------------- Functions ------------------------------- */
         "method": {
-            "foreground": "#738bf7"
+            "foreground": "#6f5ec6"
         },
         "function": {
-            "foreground": "#738bf7",
+            "foreground": "#6f5ec6",
             "bold": true
         },
         /* ------------------------------ Asynchronous ------------------------------ */
@@ -120,12 +120,12 @@
         },
         /* ---------------------------------- Trait --------------------------------- */
         "interface": {
-            "foreground": "#B9D486",
+            "foreground": "#6aa105",
             "bold": true
         },
         /* ------------------------------- Proc Macros ------------------------------ */
         "*.attribute": {
-            "foreground": "#6d5f41",
+            "foreground": "#695730",
             "bold": true
         }
     },
@@ -211,7 +211,7 @@
                 "punctuation.definition.lifetime"
             ],
             "settings": {
-                "foreground": "#DF7D3C",
+                "foreground": "#d96518",
                 "fontStyle": "bold"
             }
         },
@@ -221,7 +221,7 @@
                 "constant.language"
             ],
             "settings": {
-                "foreground": "#DF7D3C"
+                "foreground": "#e36008"
             }
         },
         /* -------------------------- Further Generization -------------------------- */
@@ -232,14 +232,14 @@
                 "keyword.operator.macro.dollar"
             ],
             "settings": {
-                "foreground": "#d8b543",
+                "foreground": "#a48a33",
                 "fontStyle": "bold"
             }
         },
         {
             "scope": "variable.other.metavariable.specifier",
             "settings": {
-                "foreground": "#d8b543"
+                "foreground": "#9e7a04"
             }
         },
         /* -------------------------------- Variables ------------------------------- */
@@ -253,7 +253,7 @@
         {
             "scope": "entity.name.type.struct",
             "settings": {
-                "foreground": "#00ccff",
+                "foreground": "#01485a",
                 "fontStyle": "bold"
             }
         },
@@ -269,14 +269,14 @@
         {
             "scope": "entity.name.type.enum",
             "settings": {
-                "foreground": "#3EE8EE",
+                "foreground": "#124345",
                 "fontStyle": "bold"
             }
         },
         {
             "scope": "variable.other.enummember",
             "settings": {
-                "foreground": "#3EE8EE"
+                "foreground": "#124345"
             }
         },
         /* -------------------------------- Functions ------------------------------- */
@@ -286,17 +286,31 @@
                 "meta.function.definition"
             ],
             "settings": {
-                "foreground": "#738bf7"
+                "foreground": "#5d6fc2"
             }
         },
         /* --------------------------------- String --------------------------------- */
         {
             "scope": "string",
             "settings": {
-                "foreground": "#00A884"
+                "foreground": "#02725a"
+            }
+        },
+        /* ------------------------------------ - ----------------------------------- */
+        {
+            "scope": "keyword.declaration.enum",
+            "settings": {
+                "foreground": "#ff0000",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "keyword.declaration.struct",
+            "settings": {
+                "foreground": "#FF0000",
+                "fontStyle": "bold"
             }
         }
-        /* ------------------------------------ - ----------------------------------- */
     ],
     "colors": {
         "focusBorder": "#0969da",
