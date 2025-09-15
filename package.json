@@ -2,7 +2,7 @@
   "name": "onsea-scenery",
   "displayName": "onsea-scenery",
   "description": "theme for rust",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "engines": {
     "vscode": "^1.102.0"
   },
@@ -16,6 +16,11 @@
         "label": "onsea-ht",
         "uiTheme": "vs",
         "path": "./themes/ht-color-theme.json"
+      },
+      {
+        "label": "onsea-zp",
+        "uiTheme": "vs-dark",
+        "path": "./themes/zp-color-theme.json"
       }
     ]
   },
